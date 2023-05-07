@@ -76,7 +76,7 @@ header {
 
 #content-grid {
     padding: 0px 50px;
-    height: 80vh;
+    height: 20vh;
     background-size: cover;
     background-position: center;
 }
@@ -127,6 +127,7 @@ header {
 .photo-grid {
 
     display: grid;
+    
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     row-gap: 10px;
@@ -134,6 +135,7 @@ header {
     grid-column-gap: 50px;
     grid-row-gap: 50px;
     margin-top: 20px;
+    
   }
   
   .photo-grid img {
@@ -144,7 +146,7 @@ header {
     font-family: Arial, Helvetica, sans-serif;
   } 
   
-  /* секция поворота 8 фото */
+  /* seccion 8 fotos */
   .flip-card {
     background-color: transparent;
     width: 300px;
